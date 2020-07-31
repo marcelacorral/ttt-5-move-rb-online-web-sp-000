@@ -22,5 +22,6 @@ describe '#input_to_index' do
     
     expect(converted_input).to be(-1)
   end
-
 end
+
+

@@ -2,4 +2,15 @@
 
 require_relative '../lib/move.rb'
 
-# Code your CLI Here
+
+def  input_to_index(user_input) user_input = user_input.to_i 
+new_index = user_input.to_i - 1 new_index 
+end
+
+
+def user_input 
+  puts "Welcome to Tic Tac Toe!"
+  puts "Where would you like to go?"
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+end 
+
